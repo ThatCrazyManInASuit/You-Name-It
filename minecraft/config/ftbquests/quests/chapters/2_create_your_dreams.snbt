@@ -1,0 +1,340 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_create_your_dreams"
+	group: "5017EBB4CD078DB8"
+	id: "1010F78871B878F8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["15F0D73C7455D1B3"]
+			description: [
+				"As you may or may not know, &2Create&f is one of the most well-made and aesthetically pleasing tech mods to date. "
+				""
+				"This mod serves as the gateway to all things automated, but be warned, out of most tech mods, it is one of the most &cinefficient&f in both &ctime&f (the amount of time recipes take) and &cspace&f (the amount of space each contraption takes)."
+			]
+			icon: "create:brass_hand"
+			id: "7ED8C85D5C4E1B41"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Create Your World of Imagination"
+			tasks: [
+				{
+					id: "1ED045F6187ACF2E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "3423B7A2477D0635"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "4D42E330E8EA7666"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Welcome to Create"
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ED8C85D5C4E1B41"]
+			id: "6E577414FA83A34D"
+			tasks: [{
+				id: "691A2B6D71BCB96D"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D51BA63DC1D8DB1"]
+			id: "0DAA606E1B6B467C"
+			tasks: [{
+				id: "035DC3C2E8A2F301"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DAA606E1B6B467C"]
+			id: "02176B223B8DE23E"
+			tasks: [{
+				id: "54EB55C410FA1820"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DAA606E1B6B467C"]
+			id: "519D5E6BC1DFA1E6"
+			tasks: [
+				{
+					id: "7440BD653A52DD6C"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "2157C4D809BD09B9"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "3A2A4E60E9DB9109"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"519D5E6BC1DFA1E6"
+				"113CAE24437F4F17"
+			]
+			id: "365A3B5AD2AA3C3D"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "78FBB53EE282BA1B"
+					item: "gtceu:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "7C8BA0ADE860DB06"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			x: 4.4d
+			y: 1.6500000000000001d
+		}
+		{
+			dependencies: ["365A3B5AD2AA3C3D"]
+			id: "59EC327F79E6C9C6"
+			tasks: [{
+				id: "445772620A77AE01"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"40A6324532B7581F"
+				"59EC327F79E6C9C6"
+			]
+			id: "31DA9CB2EAD8424C"
+			tasks: [{
+				id: "6C6E623EC209984D"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31DA9CB2EAD8424C"]
+			id: "56062F88AAF2FA26"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "0B4872D4B71469FC"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["365A3B5AD2AA3C3D"]
+			id: "169EB952BC7F11FF"
+			tasks: [{
+				id: "5B3D3A417403A85C"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56062F88AAF2FA26"]
+			id: "0586D93828C45784"
+			tasks: [{
+				id: "76EB02A44DDC2C4D"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["365A3B5AD2AA3C3D"]
+			id: "6B10D9AAA802138C"
+			tasks: [{
+				id: "06E7A6AD2F3F1C84"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B10D9AAA802138C"]
+			id: "40A6324532B7581F"
+			tasks: [{
+				id: "34C5E89BF00FC1C6"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31DA9CB2EAD8424C"]
+			id: "69DBA666857F5B55"
+			tasks: [{
+				id: "0F4AC61B3C8633D6"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E577414FA83A34D"]
+			id: "4E5565C96DC147A7"
+			tasks: [{
+				id: "1075B75EB20CF97D"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E5565C96DC147A7"]
+			id: "41099FC86BF6288B"
+			tasks: [
+				{
+					id: "4CD68414096C13E5"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14D336D2B1A9A75D"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6E577414FA83A34D"
+				"7ED8C85D5C4E1B41"
+			]
+			id: "1D51BA63DC1D8DB1"
+			tasks: [{
+				id: "3C6645533895091D"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40A6324532B7581F"]
+			id: "603649F00683B8A4"
+			tasks: [{
+				id: "764532B53ECA90BB"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E577414FA83A34D"]
+			id: "25F825E55441C246"
+			tasks: [{
+				id: "2F6D9C5E3C014C1A"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DAA606E1B6B467C"]
+			id: "27F8D561C6C81390"
+			tasks: [{
+				id: "2AA1475A4E29EB37"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27F8D561C6C81390"]
+			id: "113CAE24437F4F17"
+			tasks: [{
+				id: "7CF6491FA6D061AC"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["365A3B5AD2AA3C3D"]
+			id: "3C5BA3F1D819EE42"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "0470D4A2C1181D37"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0DAA606E1B6B467C"]
+			id: "42DAD3911A6CC4D1"
+			tasks: [{
+				id: "24681C5B9B4DA9FD"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E577414FA83A34D"]
+			id: "052647E0CFFF221F"
+			tasks: [{
+				id: "49BB598213540290"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "2. Create your Dreams"
+}

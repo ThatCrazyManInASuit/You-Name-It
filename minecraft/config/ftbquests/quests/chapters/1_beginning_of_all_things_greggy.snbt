@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_beginning_of_all_things_greggy"
+	group: "5017EBB4CD078DB8"
+	id: "1C90BF38A5E9ED0A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["516D6802747C92C2"]
+			id: "3D6CEBBA3D6FD916"
+			tasks: [{
+				id: "3F08CEF732F7CAA7"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0256524A50C611C1"]
+			icon: {
+				Count: 1
+				id: "silentgear:pickaxe"
+				tag: {
+					Damage: 0
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:pickaxe_head"
+									Item: {
+										Count: 1b
+										id: "silentgear:pickaxe_head"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												Count: 3b
+												ID: "silentgear:crimson_steel"
+												Item: {
+													Count: 1b
+													id: "silentgear:crimson_steel_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:bronze"
+												Item: {
+													Count: 1b
+													id: "silentgear:bronze_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:tip"
+									Item: {
+										Count: 1b
+										id: "silentgear:tip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:azure_electrum"
+												Item: {
+													Count: 1b
+													id: "silentgear:azure_electrum_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:fine_silk"
+												Item: {
+													Count: 1b
+													id: "silentgear:fine_silk"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							HarvestTier: "minecraft:netherite"
+							LockStats: 0b
+							ModVersion: "3.6.6"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -2.8999999f
+								"silentgear:charging_value": 0.9f
+								"silentgear:durability": 2801.0f
+								"silentgear:enchantment_value": 19.0f
+								"silentgear:harvest_speed": 20.0f
+								"silentgear:magic_damage": 6.0f
+								"silentgear:melee_damage": 7.2999997f
+								"silentgear:rarity": 83.0f
+								"silentgear:repair_efficiency": 1.0f
+							}
+							Traits: [
+								{
+									Level: 5b
+									Name: "silentgear:malleable"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:hard"
+								}
+								{
+									Level: 4b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 1b
+									Name: "silentgear:lucky"
+								}
+							]
+						}
+						Rendering: {
+							Model: 7
+							ModelKey: "pickaxe:pickaxe_head{crimson_steel,crimson_steel,crimson_steel},rod{bronze,bronze},tip{azure_electrum},binding{fine_silk},"
+						}
+					}
+					SGear_UUID: [I;
+						2071931034
+						954222139
+						-1281087793
+						-1616564060
+					]
+				}
+			}
+			id: "72B3F94E37E772E4"
+			title: "A Note About Silent Gear"
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F71965F3F7CBA1E"]
+			id: "7DCB95CED0A5B743"
+			tasks: [{
+				id: "48D0101340E0B938"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hammers"
+					}
+				}
+				title: "Any #forge:tools/hammers"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DCB95CED0A5B743"]
+			id: "2564B53D951C6937"
+			tasks: [
+				{
+					id: "593005AED1F41F20"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "Any #forge:tools/files"
+					type: "item"
+				}
+				{
+					id: "0501A8C17054E079"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrenches"
+						}
+					}
+					title: "Any #forge:tools/wrenches"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2564B53D951C6937"]
+			id: "48BE8E07E6FD88C8"
+			tasks: [
+				{
+					id: "59533A071A7ADE92"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Any #forge:tools/saws"
+					type: "item"
+				}
+				{
+					id: "2BFCB378A487CA54"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					title: "Any #forge:tools/screwdrivers"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48BE8E07E6FD88C8"]
+			id: "7ECCBE437DE56F3E"
+			tasks: [{
+				id: "1DD7DD08CAC656F7"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7ECCBE437DE56F3E"]
+			id: "0256524A50C611C1"
+			tasks: [{
+				id: "2244B1E222F8C85D"
+				item: "silentgear:template_board"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D6CEBBA3D6FD916"]
+			id: "4F71965F3F7CBA1E"
+			tasks: [{
+				id: "21931C97D3C01D50"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"In &2GregTech&f packs, it's typical for vanilla ore generation to be disabled, making the player find and engage in the huge ore veins &2GregTech&f spawns. "
+				""
+				"However, here, vanilla ore generation is still &eenabled&f, so caving and such aren't hampered. Therefore, you get best of both worlds (huge ore veins from &2GregTech&f and ores plastering the walls of caves)!"
+			]
+			id: "757A045DEC61AB09"
+			tasks: [{
+				id: "6AF1A023FB13B628"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials"
+					}
+				}
+				title: "Any #forge:raw_materials"
+				type: "item"
+			}]
+			title: "A Case Against Greg"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"757A045DEC61AB09"
+				"4F71965F3F7CBA1E"
+			]
+			id: "2AB2FC2770D2D16E"
+			tasks: [{
+				id: "558E0BA280EE71B3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2AB2FC2770D2D16E"]
+			id: "2A0C518C0F07E206"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "52A647AD8ABCC38D"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AB2FC2770D2D16E"]
+			id: "0AA20B8B9D8D30A1"
+			tasks: [{
+				id: "1761337CD391BFB1"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AA20B8B9D8D30A1"]
+			id: "1BFF857DA9857E85"
+			tasks: [
+				{
+					id: "35ED73D463B46967"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "2D1ACE95A588D951"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AA20B8B9D8D30A1"]
+			id: "434F3C2E81710980"
+			tasks: [{
+				id: "22ADB0C5D63C9710"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F71965F3F7CBA1E"]
+			id: "18C87C0C769E14E5"
+			tasks: [{
+				id: "44AF3B3F157B216D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mortars"
+					}
+				}
+				title: "Any #forge:tools/mortars"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"18C87C0C769E14E5"
+				"7ED8C85D5C4E1B41"
+			]
+			id: "7B6FE2522A1845FF"
+			tasks: [{
+				id: "15F0D73C7455D1B3"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48BE8E07E6FD88C8"]
+			id: "22A57899F564B245"
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2D0ABFDB6A47F286"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "3782B8C3109B4E2C"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "516D6802747C92C2"
+			tasks: [{
+				id: "20F2CEDDD132C891"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["516D6802747C92C2"]
+			id: "56F9C77FB4BAFC5B"
+			tasks: [{
+				id: "47895A55696D34DD"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D6CEBBA3D6FD916"]
+			id: "64D9761204BE4ADE"
+			tasks: [{
+				id: "7A46D42764C89644"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+	title: "1. Beginning of All Things Greggy"
+}

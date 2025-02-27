@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3_beneath_the_surface"
+	group: "5017EBB4CD078DB8"
+	id: "2FC20F41541D4160"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4E4D89791486F9E8"
+			tasks: [{
+				id: "571F8E239C41D663"
+				item: "undergarden:depthrock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E4D89791486F9E8"]
+			icon: "undergarden:catalyst"
+			id: "5B7204324521BE57"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					count: 10L
+					id: "69299E4750BE2319"
+					item: { Count: 10, id: "undergarden:depthrock_bricks" }
+					type: "item"
+				}
+				{
+					id: "304D043FB0AAC68F"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B7204324521BE57"]
+			id: "2364BA0D7E361C3F"
+			tasks: [{
+				id: "186AFABE5EA3A9F3"
+				structure: "undergarden:catacombs"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B7204324521BE57"]
+			id: "68312EF9EB39ABF1"
+			tasks: [
+				{
+					id: "3A46C942A232D7C9"
+					item: "undergarden:raw_cloggrum"
+					type: "item"
+				}
+				{
+					id: "20A45C76D1CBD0E9"
+					item: "undergarden:froststeel_ingot"
+					type: "item"
+				}
+				{
+					id: "0AA26148EED7408F"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+				{
+					id: "4F6606D4A6A76DA6"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			title: "R\\&D: GEO I"
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+	title: "3. Beneath the Surface"
+}

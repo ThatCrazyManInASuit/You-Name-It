@@ -1,0 +1,1498 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "good_eatin"
+	group: "23C2030BBCDC2F87"
+	id: "30310600274386EE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "604C47E10F38B6B8"
+			tasks: [{
+				id: "787B128540FAACEC"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 8.0d
+		}
+		{
+			id: "68A5DA7D81951931"
+			tasks: [{
+				id: "7A45D7203AD8AB9A"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.0d
+		}
+		{
+			id: "76160E334D69428D"
+			tasks: [{
+				id: "2ECB36BF471CF7B5"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -33.5d
+			y: 10.0d
+		}
+		{
+			id: "331D79C43289FA63"
+			tasks: [{
+				id: "053868E2940C2F4C"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -32.5d
+			y: 10.0d
+		}
+		{
+			id: "5FAEBB9CE636B292"
+			tasks: [{
+				id: "4FF9DFF4A7F9D749"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 10.0d
+		}
+		{
+			id: "7289B56A447B9E13"
+			tasks: [{
+				id: "402B3C804181AF80"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "66A8F91A4A7482B7"
+			tasks: [{
+				id: "5DF6E3493D71033E"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			id: "396D7204921D4791"
+			tasks: [{
+				id: "03B7D914F1183445"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "26BA6029D7846EC3"
+			tasks: [{
+				id: "73054EA0D06EA2C6"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "34ACE33FCF6AC417"
+			tasks: [{
+				id: "3D5AB72AFA349976"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "55EC0B450A5A7006"
+			tasks: [{
+				id: "35BD41D50754F631"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 12.5d
+		}
+		{
+			id: "44DE4F9E85572EDE"
+			tasks: [{
+				id: "26212FD4F8EE7AF5"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 12.0d
+		}
+		{
+			id: "3B7A481BBC9D8631"
+			tasks: [{
+				id: "23BA3F693D8F109C"
+				item: "delightful:raw_goat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			id: "3FA2131C1AAF52A9"
+			tasks: [{
+				id: "72CC8C32D2AB52A8"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			id: "101F3626D7AE5FC4"
+			tasks: [{
+				id: "493E528A8A3BE8C3"
+				item: "croptopia:toast"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -1.0d
+		}
+		{
+			id: "7888C67B54CB327A"
+			tasks: [{
+				id: "5416BB35B454889D"
+				item: "minecraft:rabbit_stew"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
+		{
+			id: "2B6935D05C60F5E5"
+			tasks: [{
+				id: "5824D7FD97B9D3F1"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			id: "69D7097AD020564E"
+			tasks: [{
+				id: "132F524F49CEFF83"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			id: "77543A55135FF079"
+			tasks: [{
+				id: "7B123F6CB6F4C275"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "1859957865DD676B"
+			tasks: [{
+				id: "26CCA98967E6A14C"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 8.5d
+		}
+		{
+			id: "67D77D970D5F6BE9"
+			tasks: [{
+				id: "3BB06550DC10B6BA"
+				item: "nethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			id: "7E6BD6278F4F24B6"
+			tasks: [{
+				id: "67B48C7F0238D290"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 12.0d
+		}
+		{
+			id: "7B55C59E4253B681"
+			tasks: [{
+				id: "2580A786C60170C5"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 11.5d
+		}
+		{
+			id: "470E5A31CF0B30C6"
+			tasks: [{
+				id: "1B2226B1FF755CE7"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 10.5d
+		}
+		{
+			id: "65E88926CBB630ED"
+			tasks: [{
+				id: "6C115F933B918581"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 10.0d
+		}
+		{
+			id: "6DF2EB7C2C89F850"
+			tasks: [{
+				id: "6F5D24D50048197A"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 9.5d
+		}
+		{
+			id: "2063398D67873385"
+			tasks: [{
+				id: "117518F3202D6C9A"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.0d
+		}
+		{
+			id: "0C144DCBB675F066"
+			tasks: [{
+				id: "4E9346B5EB1B7D40"
+				item: { Count: 2, id: "aquaculture:pollock" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 11.0d
+		}
+		{
+			id: "5DAF8E200A53F3A3"
+			tasks: [{
+				id: "0878BD8A26ABC4AA"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 12.0d
+		}
+		{
+			id: "2973DEF6741DB443"
+			tasks: [{
+				id: "126385A58D281284"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 12.5d
+		}
+		{
+			id: "37BB1A04A997EAAB"
+			tasks: [{
+				id: "70BF07F9CEC52644"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			id: "617B981EE1B38A82"
+			tasks: [{
+				id: "5D769362EB6E949A"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 12.0d
+		}
+		{
+			id: "70A8D695F74994C6"
+			tasks: [{
+				id: "0DB83D8C2232EAB4"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.5d
+		}
+		{
+			id: "7B98127C59D6B87E"
+			tasks: [{
+				id: "1914ABB8C180FEF3"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			id: "1AF022B6C4C2B8F9"
+			tasks: [{
+				id: "7796F3C82C699647"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			id: "047887879142BAB2"
+			tasks: [{
+				id: "74ACB6A230B9DA61"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			id: "3408D669C633CE3C"
+			tasks: [{
+				id: "08C20C606091476F"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 7.0d
+		}
+		{
+			id: "02977BEDAA5F22EE"
+			tasks: [{
+				id: "16565D7101AE6E08"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			id: "74E7E3F3A2BF3A31"
+			tasks: [{
+				id: "332CB4BBCE77C501"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			id: "195FFBBEDC2B8C37"
+			tasks: [{
+				id: "5F94A5C3A95C0EA6"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			id: "30F464BDEBE0C2BE"
+			tasks: [{
+				id: "7F967FC69C681D2D"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			id: "0E466B5AD561219E"
+			tasks: [{
+				id: "0BCFF8E4D36E765F"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			id: "734E3609C7E23690"
+			tasks: [{
+				id: "380443533C2E206C"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			id: "256FDC2387EBDB27"
+			tasks: [{
+				id: "0BBC29DA163832EA"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			id: "210290D1DC026531"
+			tasks: [{
+				id: "48286AB9D1FA55F9"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			id: "489A39CDF2F5566E"
+			tasks: [{
+				id: "47D3054B132ACA93"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			id: "63B39B0F5472A329"
+			tasks: [{
+				id: "5AD6E3D30ABD37FF"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			id: "534637F4B8BE05A4"
+			tasks: [{
+				id: "541726DA7C3B03A4"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			id: "5727992CDDFCB5D5"
+			tasks: [{
+				id: "7924D5588FC06476"
+				item: {
+					Count: 1
+					id: "sushigocrafting:shrimp"
+					tag: {
+						Amount: 25
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: 11.0d
+		}
+		{
+			id: "720C7FC91833E2D7"
+			tasks: [{
+				id: "4C4FB9BA531C3E4E"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			id: "48A5D9FC9E2AFE27"
+			tasks: [{
+				id: "1DA34421D4949649"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 8.0d
+		}
+		{
+			id: "3B714B5AEB8B9A2E"
+			tasks: [{
+				id: "73358DB1FF4CFE0D"
+				item: "farmersdelight:salmon_slice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "6BAFDE8A216CD4E3"
+			tasks: [{
+				id: "2D416DDE78403AD0"
+				item: "farmersdelight:mutton_chops"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "1BBB52DAE1309731"
+			tasks: [{
+				id: "577FDC66012132E1"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "17F3E670FA8A317D"
+			tasks: [{
+				id: "636B426FEDB0D55D"
+				item: "farmersdelight:bacon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "4DA01FFE8034BF04"
+			tasks: [{
+				id: "22A1ED38ECD76160"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			id: "280700A2E06DBAF2"
+			tasks: [{
+				id: "1A06120E7F19C09D"
+				item: "quark:ancient_fruit"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			id: "24850A82A3963309"
+			tasks: [{
+				id: "24A02A02437440D3"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			id: "0F0C6A8E5824A7E1"
+			tasks: [{
+				id: "72D15A8084DAD209"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 9.0d
+		}
+		{
+			id: "6EA216C91BD11FD8"
+			tasks: [{
+				id: "5795FF2671FCAA87"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 9.0d
+		}
+		{
+			id: "48B084EF91206E09"
+			tasks: [{
+				id: "002F9342F6D7D756"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 8.5d
+		}
+		{
+			id: "001B553E1E8F7C0C"
+			tasks: [{
+				id: "1F4CF311BAA32C18"
+				item: "corn_delight:corn"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 8.5d
+		}
+		{
+			id: "4821B1E9448DBE03"
+			tasks: [{
+				id: "3323AFB3CA6E4CAC"
+				item: "croptopia:artichoke"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 7.5d
+		}
+		{
+			id: "31060AD3A42A69D2"
+			tasks: [{
+				id: "6FE6A70FFC0B98D3"
+				item: "croptopia:asparagus"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 7.5d
+		}
+		{
+			id: "63F65A02315090CD"
+			tasks: [{
+				id: "4A58D456D45F1949"
+				item: "croptopia:basil"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 8.5d
+		}
+		{
+			id: "65AA3555FDF5E243"
+			tasks: [{
+				id: "1088AC22B04906FA"
+				item: "croptopia:blackberry"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			id: "0E95EE4F4F57BB6D"
+			tasks: [{
+				id: "6E9FD80A07B06B80"
+				item: "croptopia:bellpepper"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 9.5d
+		}
+		{
+			id: "350AE1823CFB2F35"
+			tasks: [{
+				id: "352FDBCE2670E5BE"
+				item: "croptopia:broccoli"
+				type: "item"
+			}]
+			x: -30.5d
+			y: 9.5d
+		}
+		{
+			id: "2C07E8177791A06E"
+			tasks: [{
+				id: "1549C718C1362724"
+				item: "croptopia:barley"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			id: "4B7C282DD784F162"
+			tasks: [{
+				id: "34A6D9C9A908F7EC"
+				item: "farmersdelight:chicken_cuts"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "1BC8258C618FD272"
+			tasks: [{
+				id: "5A7BDB49A92F1A9C"
+				item: "croptopia:cauliflower"
+				type: "item"
+			}]
+			x: -32.5d
+			y: 8.0d
+		}
+		{
+			id: "0098AD7768C4E7A2"
+			tasks: [{
+				id: "0464D06384F2549E"
+				item: "croptopia:celery"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 6.5d
+		}
+		{
+			id: "274DA5399C6CFE1D"
+			tasks: [{
+				id: "13D82662F8999780"
+				item: "croptopia:chile_pepper"
+				type: "item"
+			}]
+			x: -30.5d
+			y: 7.5d
+		}
+		{
+			id: "3AF99E490C55781C"
+			tasks: [{
+				id: "393080791077FE2C"
+				item: "croptopia:cucumber"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 9.0d
+		}
+		{
+			id: "4D575F8AA9449FAB"
+			tasks: [{
+				id: "0072039F18E2B9F6"
+				item: "croptopia:eggplant"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 8.0d
+		}
+		{
+			id: "33C05E63602EDC64"
+			tasks: [{
+				id: "0C972F47752D6D9A"
+				item: "croptopia:garlic"
+				type: "item"
+			}]
+			x: -33.5d
+			y: 8.0d
+		}
+		{
+			id: "0A92F2C68A35D20D"
+			tasks: [{
+				id: "68A814FF0B9C78FB"
+				item: "croptopia:ginger"
+				type: "item"
+			}]
+			x: -34.0d
+			y: 9.0d
+		}
+		{
+			id: "30C8792934AC5248"
+			tasks: [{
+				id: "48F8C8F684598CC6"
+				item: "croptopia:grape"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			id: "209614E9685C0D99"
+			tasks: [{
+				id: "7DCB38BAAC2D47A5"
+				item: "croptopia:greenbean"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 8.5d
+		}
+		{
+			id: "0778198AC367EF5B"
+			tasks: [{
+				id: "5B98D5898C49ABD7"
+				item: "croptopia:greenonion"
+				type: "item"
+			}]
+			x: -34.5d
+			y: 10.0d
+		}
+		{
+			id: "0E8EDB260FE4402E"
+			tasks: [{
+				id: "1F7BD187E3E5FE42"
+				item: "croptopia:honeydew"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			id: "4CF15D3DCF90C85E"
+			tasks: [{
+				id: "43E217BEE49AE82F"
+				item: "croptopia:kale"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 7.5d
+		}
+		{
+			id: "3185E8EEEC701CA5"
+			tasks: [{
+				id: "1AEDF5995F776DC3"
+				item: "croptopia:kiwi"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			id: "09EB174CF78F2803"
+			tasks: [{
+				id: "004661668CCEFA98"
+				item: "croptopia:leek"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 9.0d
+		}
+		{
+			id: "68A19B2BFF41D96D"
+			tasks: [{
+				id: "693512E52F870595"
+				item: "croptopia:lettuce"
+				type: "item"
+			}]
+			x: -31.0d
+			y: 6.5d
+		}
+		{
+			id: "2FA18BA50A4D5BE4"
+			tasks: [{
+				id: "44DC4157950DAE92"
+				item: "croptopia:mustard"
+				type: "item"
+			}]
+			x: -33.0d
+			y: 7.0d
+		}
+		{
+			id: "3FFADBC4512DA0A6"
+			tasks: [{
+				id: "78577353FEFCC86C"
+				item: "croptopia:oat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			id: "5A875F3A820B1421"
+			tasks: [{
+				id: "4EF01FE9D88904D0"
+				item: "croptopia:olive"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 6.5d
+		}
+		{
+			id: "2406CBEDB226F1F1"
+			tasks: [{
+				id: "1E57961BAA30E10B"
+				item: "croptopia:peanut"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			id: "69B8155CD731A3F3"
+			tasks: [{
+				id: "161394864DACDA49"
+				item: "croptopia:pineapple"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			id: "090979B368422588"
+			tasks: [{
+				id: "47B1E7D31E12F4BF"
+				item: "croptopia:radish"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 7.0d
+		}
+		{
+			id: "5AFE5E4C967E7562"
+			tasks: [{
+				id: "336AD4E9BB1023E2"
+				item: "croptopia:rhubarb"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			id: "32EB852187A5A5CB"
+			tasks: [{
+				id: "262ED04C528ED695"
+				item: "croptopia:raspberry"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			id: "7368333259C0F1A7"
+			tasks: [{
+				id: "2B7F63E0BED27160"
+				item: "croptopia:rutabaga"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 9.5d
+		}
+		{
+			id: "1FB0E98B7729B3C6"
+			tasks: [{
+				id: "777FE865DE9AF612"
+				item: "croptopia:saguaro"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			id: "0E65D6523E20CAE9"
+			tasks: [{
+				id: "5697EC81F889D474"
+				item: "croptopia:soybean"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 8.0d
+		}
+		{
+			id: "3AA1E8F6D4237958"
+			tasks: [{
+				id: "75BF94FAD5D2A341"
+				item: "croptopia:spinach"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 9.0d
+		}
+		{
+			id: "6A875A8B428DADBA"
+			tasks: [{
+				id: "0D97B67FAE4A8A6C"
+				item: "croptopia:squash"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 7.0d
+		}
+		{
+			id: "53EBB1E1BDFB0DBD"
+			tasks: [{
+				id: "507B70D460D9D8DD"
+				item: "croptopia:strawberry"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			id: "256C6527051C5D67"
+			tasks: [{
+				id: "481FF4F5FBC7F994"
+				item: "croptopia:sweetpotato"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			id: "16EA9BDB8DEA148B"
+			tasks: [{
+				id: "3996A8DAAD5D6E2D"
+				item: "croptopia:tea_leaves"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 9.0d
+		}
+		{
+			id: "5D495E2B2855E08F"
+			tasks: [{
+				id: "3610EA159A830218"
+				item: "croptopia:tomatillo"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 9.5d
+		}
+		{
+			id: "653A6264CC7C2E60"
+			tasks: [{
+				id: "43C7A12E945582C7"
+				item: "croptopia:turmeric"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 8.0d
+		}
+		{
+			id: "3CBA7ECDE6EC36EA"
+			tasks: [{
+				id: "258E62E3C6839313"
+				item: "croptopia:turnip"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 7.0d
+		}
+		{
+			id: "76460ECC27BC3FA0"
+			tasks: [{
+				id: "2B6209142982D7CE"
+				item: "croptopia:vanilla"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			id: "6455994172A4E4CC"
+			tasks: [{
+				id: "1706849970CB46F0"
+				item: "croptopia:yam"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			id: "31112A7D832F0353"
+			tasks: [{
+				id: "41E037B7E5826312"
+				item: "croptopia:zucchini"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 6.5d
+		}
+		{
+			id: "7F25506C6BA679C2"
+			tasks: [{
+				id: "00BC987163B031A3"
+				item: "croptopia:almond"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			id: "5592F53A210F56D4"
+			tasks: [{
+				id: "1D22B0F1143C7827"
+				item: "croptopia:apricot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			id: "3BEBC54458B3DD6F"
+			tasks: [{
+				id: "73B8400342719222"
+				item: "croptopia:avocado"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			id: "6A574EAB89CD7140"
+			tasks: [{
+				id: "24DB177DE62D5461"
+				item: "croptopia:banana"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			id: "67976976D17D3580"
+			tasks: [{
+				id: "41714076D51D7D43"
+				item: "croptopia:cashew"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			id: "42E0D9F6619CB441"
+			tasks: [{
+				id: "527F0C7308F3430E"
+				item: "croptopia:cherry"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			id: "10AFCC9A9569EDC0"
+			tasks: [{
+				id: "76CFA33F77F229CC"
+				item: "croptopia:coconut"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			id: "74CD1E7AC795B0F3"
+			tasks: [{
+				id: "3A282DBF1B8E2422"
+				item: "croptopia:date"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			id: "281CE69560DB17B1"
+			tasks: [{
+				id: "44D75F3269105E42"
+				item: "croptopia:dragonfruit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			id: "0532145D1DDD5C20"
+			tasks: [{
+				id: "17F3B6AFDCE07BE5"
+				item: "croptopia:fig"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			id: "49F166D038A3BF9E"
+			tasks: [{
+				id: "199F2CEE33BA368B"
+				item: "croptopia:grapefruit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			id: "2DAFD430084587FE"
+			tasks: [{
+				id: "70BF3A8D92D0BB07"
+				item: "croptopia:kumquat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "6C704D26E4032F90"
+			tasks: [{
+				id: "09C1796B3A55C84A"
+				item: "croptopia:lemon"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			id: "30ACC1221DE5F330"
+			tasks: [{
+				id: "146C712406CAAEC1"
+				item: "croptopia:lime"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			id: "5FC823371255B05C"
+			tasks: [{
+				id: "631842729F215DCF"
+				item: "croptopia:mango"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			id: "4701C07FFF4CEA45"
+			tasks: [{
+				id: "78684917908C3CE9"
+				item: "croptopia:nectarine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			id: "1CF1D5C02CB9F44F"
+			tasks: [{
+				id: "0785398B364DA00F"
+				item: "croptopia:nutmeg"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			id: "40DA1ECCC16D66CA"
+			tasks: [{
+				id: "72E46AE34024B08A"
+				item: "croptopia:orange"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			id: "6DA240EEAD944707"
+			tasks: [{
+				id: "1BD44ABBE76A46BE"
+				item: "croptopia:peach"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "2BA88CC36F0AF317"
+			tasks: [{
+				id: "5FAF94BDE4052CDD"
+				item: "croptopia:pear"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			id: "153A246216C3CF99"
+			tasks: [{
+				id: "323449C61BE19E77"
+				item: "croptopia:pecan"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "29FF70C22F9D1B4D"
+			tasks: [{
+				id: "0EF523DA0467587A"
+				item: "croptopia:persimmon"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			id: "41F0095A9587E7EB"
+			tasks: [{
+				id: "2A725D65C844DCB1"
+				item: "croptopia:plum"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			id: "3EAAF20C85E54C31"
+			tasks: [{
+				id: "19B8FAB35C6FB3D0"
+				item: "croptopia:starfruit"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			id: "4F85ACBFCD43DCC6"
+			tasks: [{
+				id: "32BAFD9E13769016"
+				item: "croptopia:walnut"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "70E7EFB2964512EA"
+			tasks: [{
+				id: "0F5E829A1E152AC7"
+				item: "croptopia:cinnamon"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			id: "45F6709BA73E6BC5"
+			tasks: [{
+				id: "79244D99A984D3C7"
+				item: "croptopia:crab"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 8.5d
+		}
+		{
+			id: "2D5C1D4454108ACA"
+			tasks: [{
+				id: "2B505AEF0C5E66B9"
+				item: "croptopia:anchovy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "30C961D9B7EC4673"
+			tasks: [{
+				id: "39A37A8E5A95FA59"
+				item: "croptopia:calamari"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 10.0d
+		}
+		{
+			id: "2E483949249FC7BD"
+			tasks: [{
+				id: "0D73FD56DFA43DB9"
+				item: "croptopia:glowing_calamari"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "173998CA2EB125B2"
+			tasks: [{
+				id: "7789FE37D2FA0CF9"
+				item: "croptopia:clam"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 6.5d
+		}
+		{
+			id: "2CB559763FAF1CA7"
+			tasks: [{
+				id: "077FB93EBDECEA61"
+				item: "croptopia:oyster"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 8.5d
+		}
+		{
+			id: "4FC1717653C5A355"
+			tasks: [{
+				id: "2D9D44017F2D91CB"
+				item: "delightful:animal_fat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "157FC5B75647DEEF"
+			tasks: [{
+				id: "16C1FDC2D19F8F57"
+				item: "delightful:acorn"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			id: "218896E5AE92DCC0"
+			tasks: [{
+				id: "479CD902E7CE56DA"
+				item: "delightful:cantaloupe_slice"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			id: "6FCC72419B011942"
+			tasks: [{
+				id: "4990AE51F799C1F0"
+				item: "ends_delight:chorus_fruit_grain"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "473419A97DDE1C80"
+			tasks: [{
+				id: "2D00EC0AEC53CF6B"
+				item: "ends_delight:chorus_succulent"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			id: "168116E3E32C090C"
+			tasks: [{
+				id: "46DAA15D4E97DE85"
+				item: "ends_delight:shulker_meat"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 7.5d
+		}
+		{
+			id: "4DBDF1D650168B4A"
+			tasks: [{
+				id: "2E296D27B75B6AF9"
+				item: "ends_delight:dragon_leg"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "1C652DEA17CD3886"
+			tasks: [{
+				id: "14B23C8EA6F08244"
+				item: "ends_delight:raw_ender_mite_meat"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 7.5d
+		}
+		{
+			id: "60C97DAA88FDE739"
+			tasks: [{
+				id: "19123E09D3FF4B69"
+				item: "ends_delight:enderman_gristle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+	]
+	title: "Good Eatin' - Tier 0"
+}
