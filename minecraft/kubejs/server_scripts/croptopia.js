@@ -8,6 +8,10 @@ ServerEvents.recipes(e => {
 	);
     e.remove({output: 'croptopia:peanut_butter'})
     e.recipes.create.filling('croptopia:peanut_butter', [Fluid.of('kubejs:peanut_butter', 250), 'glass_bottle'])
+
+    ['croptopia:hamburger'].forEach(x => {
+        e.remove({output: x})
+    });
 })
 
 ServerEvents.tags('item', e => {

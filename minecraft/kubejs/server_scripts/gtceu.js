@@ -152,4 +152,7 @@ ServerEvents.recipes(e => {
     e.recipes.create.mixing(Fluid.of('gtceu:bronze', 4), [{fluidTag: 'forge:copper', amount: 3},{fluidTag: 'forge:tin', amount: 1}]).heated()
     e.recipes.create.mixing(Fluid.of('gtceu:battery_alloy', 5), [{fluidTag: 'forge:antimony', amount: 1},{fluidTag: 'forge:lead', amount: 4}]).heated()
     e.recipes.create.mixing(Fluid.of('gtceu:brass', 4), [{fluidTag: 'forge:copper', amount: 3},{fluidTag: 'forge:zinc', amount: 1}]).heated()
+
+    e.recipes.create.deploying('gtceu:firebrick', ['twilightforest:lamp_of_cinders', 'gtceu:firebrick_dust']).keepIngredient('twilightforest:lamp_of_cinders')
+    
 })

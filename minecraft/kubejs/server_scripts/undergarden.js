@@ -16,7 +16,7 @@ ServerEvents.recipes(e => {
 		e.recipes.create.deploying(inter1, [inter1, 'redstone']),
         e.recipes.create.filling(inter1, [Fluid.of('undergarden:virulent_mix_source', 250), inter1]),
 		e.recipes.create.deploying(inter1, [inter1, 'undergarden:regalium_crystal']),
-	]).transitionalItem(inter).loops(4)
+	]).transitionalItem(inter1).loops(4)
 /** 
     let inter2 = 'undergarden:ca'
     e.recipes.create.sequenced_assembly([
@@ -32,8 +32,8 @@ ServerEvents.recipes(e => {
 		e.recipes.create.deploying(inter2, [inter2, 'redstone']),
         e.recipes.create.filling(inter2, [Fluid.of('undergarden:virulent_mix_source', 250), inter2]),
 		e.recipes.create.deploying(inter2, [inter2, 'undergarden:regalium_crystal']),
-	]).transitionalItem(inter2).loops(4)
-})*/
+	]).transitionalItem(inter2).loops(4)*/
+})
 
 ServerEvents.tags('item', e => {
     e.removeAll('undergarden:portal_frame_blocks')
