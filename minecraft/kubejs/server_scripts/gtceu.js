@@ -64,7 +64,7 @@ ServerEvents.recipes(e => {
         let recipe = JSON.parse(x.json)
         if (recipe.inputs.fluid[0].content.value[0].tag == "forge:water") {
             let simple = {
-                input: Item.of(`#${recipe.inputs.item[0].content.ingredient.tag}`),
+                input: Ingredient.of(`#${recipe.inputs.item[0].content.ingredient.tag}`),
                 outputs: []
             }
             recipe.outputs.item.forEach(b => {
@@ -87,7 +87,7 @@ ServerEvents.recipes(e => {
         if (!inputIngredient) {
             return
         }
-        simple.input = inputIngredient.tag ? Item.of(`#${inputIngredient.tag}`) : Item.of(inputIngredient.item)
+        simple.input = inputIngredient.tag ? Ingredient.of(`#${inputIngredient.tag}`) : Item.of(inputIngredient.item)
         recipe.outputs.item.forEach(b => {
             simple.outputs.push(Item.of(b.content.ingredient.item).withChance(b.chance / 10000))
         })
@@ -107,7 +107,7 @@ ServerEvents.recipes(e => {
                 
             // Handle input (tag or item)
             let inputIngredient = recipe.inputs.item[0].content.ingredient
-            simple.input = inputIngredient.tag ? Item.of(`#${inputIngredient.tag}`) : Item.of(inputIngredient.item)
+            simple.input = inputIngredient.tag ? Ingredient.of(`#${inputIngredient.tag}`) : Item.of(inputIngredient.item)
             
             // Handle fluid output
             let fluidOutput = recipe.outputs.fluid[0].content
@@ -154,5 +154,31 @@ ServerEvents.recipes(e => {
     e.recipes.create.mixing(Fluid.of('gtceu:brass', 4), [{fluidTag: 'forge:copper', amount: 3},{fluidTag: 'forge:zinc', amount: 1}]).heated()
 
     e.recipes.create.deploying('gtceu:firebrick', ['twilightforest:lamp_of_cinders', 'gtceu:firebrick_dust']).keepIngredient('twilightforest:lamp_of_cinders')
-    
+    e.shapeless('gtceu:firebrick', ['twilightforest:lamp_of_cinders', '#forge:tools/mortars', 'bricks']).keepIngredient('twilightforest:lamp_of_cinders').keepIngredient('#forge:tools/mortars')
+    e.replaceInput({output: 'gtceu:lp_steam_solid_boiler'}, 'bricks', 'gtceu:firebrick')
+    e.remove({output: 'gtceu:lp_steam_liquid_boiler'})
+    e.shapeless('gtceu:lp_steam_liquid_boiler', ['gtceu:lp_steam_solid_boiler', 'create:fluid_tank'])
+})
+
+GTCEuServerEvents.oreVeins(e => {
+    e.modify("gtceu:sapphire_vein", vein => {
+        vein.dimensions("twilightforest:twilight_forest")
+        vein.layer("twilight_layer")
+        vein.heightRangeUniform(-32, 0)
+    })
+    e.modify("gtceu:olivine_vein", vein => {
+        vein.dimensions("twilightforest:twilight_forest")
+        vein.layer("twilight_layer")
+        vein.heightRangeUniform(-32, 0)
+    })
+    e.modify("gtceu:nickel_vein", vein => {
+        vein.dimensions("twilightforest:twilight_forest")
+        vein.layer("twilight_layer")
+        vein.heightRangeUniform(-32, 0)
+    })
+    e.modify("gtceu:galena_vein", vein => {
+        vein.dimensions("twilightforest:twilight_forest")
+        vein.layer("twilight_layer")
+        vein.heightRangeUniform(-32, 0)
+    })
 })

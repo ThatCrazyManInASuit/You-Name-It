@@ -6,6 +6,286 @@
 	id: "24D9B452C608EB3A"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["1486E77612197F93"]
+			id: "250931999EFF84FC"
+			tasks: [{
+				count: 8L
+				id: "59DC2A22AD637F35"
+				item: { Count: 8, id: "twilightforest:naga_scale" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["250931999EFF84FC"]
+			id: "6B218CE4A1C51245"
+			tasks: [{
+				id: "42A1B24918D31572"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:twilight_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:lifedrain_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:zombie_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:fortification_scepter"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B218CE4A1C51245"]
+			id: "7C2220F89B1684A1"
+			tasks: [{
+				id: "1F8FA0754A8C5FDD"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C2220F89B1684A1"]
+			id: "10B9804BAC8A3CF5"
+			tasks: [
+				{
+					id: "3FEEAF95C65FD092"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "210FDD30AF51A572"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10B9804BAC8A3CF5"]
+			id: "25249D7E01E83878"
+			tasks: [{
+				id: "2A2788E6878EC31C"
+				item: {
+					Count: 1
+					id: "twilightforest:phantom_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25249D7E01E83878"]
+			id: "7FA7163801FFE0C5"
+			tasks: [{
+				id: "49A57D60E9B7663A"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7FA7163801FFE0C5"]
+			id: "6F1341627E5190BF"
+			tasks: [{
+				count: 4L
+				id: "50C2E0605A0B0748"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F1341627E5190BF"]
+			id: "2AC4133DD958BDF3"
+			tasks: [{
+				id: "33A4BDF8CDC72AF6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:triple_bow"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:seeker_bow"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6B218CE4A1C51245"]
+			id: "755B880DA92398B5"
+			tasks: [{
+				id: "34CC7C12C16A2528"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AC4133DD958BDF3"]
+			id: "0C71A009963D856E"
+			tasks: [{
+				id: "226E266CA4288394"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0C71A009963D856E"]
+			id: "7FE4D31B3D0FD318"
+			tasks: [{
+				id: "7704714EF9DB8D3E"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7FE4D31B3D0FD318"]
+			id: "48C5C74EBE2094CF"
+			tasks: [{
+				id: "1C297AAA3F165078"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			id: "1486E77612197F93"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "372D651F8961B7D6"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1486E77612197F93"]
+			id: "6818036817FB018B"
+			tasks: [{
+				id: "5B609F224E80D58F"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6818036817FB018B"]
+			id: "255748D57DF1431A"
+			tasks: [{
+				id: "3169F95E6058E329"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1486E77612197F93"]
+			id: "13925642D3817E7A"
+			tasks: [{
+				id: "39019AE2A0198463"
+				item: "twilightforest:cicada"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+	]
 	title: "4. Twilight's Edge"
 }

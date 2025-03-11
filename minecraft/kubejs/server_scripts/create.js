@@ -435,6 +435,21 @@ ServerEvents.recipes(e => {
             D: '#forge:tools/screwdrivers'
         }
     ).keepIngredient('#forge:tools')
+    e.remove({output: 'create:spout'})
+    e.shaped(
+        "create:spout",
+            [
+            ' F ',
+            'WVS',
+            ' L '
+        ], {
+            F: 'create:fluid_tank',
+            W: 'create:water_wheel',
+            V: 'create:fluid_valve',
+            S: '#forge:tools/saws',
+            L: 'gtceu:lead_ring'
+        }
+    ).keepIngredient('#forge:tools')
 
     let gregPlates = Ingredient.of('#forge:plates').getItemIds().toArray()
     let hammerable = [

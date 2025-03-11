@@ -1,5 +1,4 @@
 StartupEvents.registry('fluid', e => {
-    // Basic "thick" (looks like lava) fluid with red tint
     e.create('peanut_butter')
         .displayName('Peanut Butter')
         .stillTexture('kubejs:fluid/peanut_butter_still')
@@ -31,3 +30,38 @@ StartupEvents.registry('item', e => {
         .unstackable()
         .displayName('Incomplete Twilight Catalyst')
 })
+
+GTCEuStartupEvents.registry("gtceu:material", e => {
+    e.create("signalum")
+        .ingot()
+        .color(0xff560a).iconSet("shiny")
+        .components("3x copper", "1x silver", "4x redstone")
+        .liquid()
+        .flags(GTMaterialFlags.GENERATE_SMALL_GEAR)
+    e.create("enderium")
+        .ingot()
+        .color(0x266e6f).iconSet("shiny")
+        .components("3x lead", "1x diamond", "2x ender_pearl")
+        .liquid()
+        .flags(GTMaterialFlags.GENERATE_SMALL_GEAR)
+        /** 
+    e.create("lumium")
+        .ingot()
+        .color(0x266e6f).iconSet("shiny")
+        .components("3x tin", "1x silver", "2x glowstone_dust")
+        .liquid()
+        .flags(GTMaterialFlags.GENERATE_SMALL_GEAR)*/    
+});
+
+GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
+    event.create('twilight_layer')
+        .targets('#minecraft:stone_ore_replaceables')
+        .dimensions('twilightforest:twilight_forest')
+})
+
+/** 
+GTCEuStartupEvents.registry('gtceu:dimension_marker', event => {
+    event.create('twilightforest:twilight_forest')  // the resource location for the dim
+        .icon('twilightforest:twilight_portal_miniature_structure')  // the shown item in orevein widget
+        .overrideName('Twilight Forest')  // nullable, the name will show on orevein widget, can be a translate key
+})*/

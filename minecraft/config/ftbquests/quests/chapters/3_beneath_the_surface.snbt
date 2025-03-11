@@ -25,15 +25,14 @@
 			size: 1.25d
 			tasks: [
 				{
-					count: 10L
-					id: "69299E4750BE2319"
-					item: { Count: 10, id: "undergarden:depthrock_bricks" }
-					type: "item"
-				}
-				{
 					id: "304D043FB0AAC68F"
 					item: "undergarden:catalyst"
 					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					id: "6B1E79654D06A1E8"
+					type: "dimension"
 				}
 			]
 			x: 0.0d
@@ -48,7 +47,7 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B7204324521BE57"]
@@ -78,6 +77,28 @@
 			title: "R\\&D: GEO I"
 			x: -1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["2364BA0D7E361C3F"]
+			id: "2020F92400F5E3A7"
+			tasks: [{
+				id: "12DEC45FCE018A70"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2020F92400F5E3A7"]
+			id: "3BF43EBD098102B6"
+			tasks: [{
+				id: "2A9D3EE477FA69C7"
+				item: "kubejs:twilight_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
 		}
 	]
 	title: "3. Beneath the Surface"

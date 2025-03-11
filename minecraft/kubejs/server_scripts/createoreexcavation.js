@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+/**ServerEvents.recipes(event => {
 	
 	//Adding veins
 	//.placement(spacing, separation, salt)
@@ -48,3 +48,4 @@ ServerEvents.recipes(event => {
 	
 	//Set base value in config for finite veins
 });
+ */
