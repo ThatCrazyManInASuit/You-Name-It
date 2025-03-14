@@ -52,14 +52,14 @@ GTCEuStartupEvents.registry("gtceu:material", e => {
         .liquid()
         .flags(GTMaterialFlags.GENERATE_SMALL_GEAR)*/    
 });
-
+/** 
 GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
     event.create('twilight_layer')
         .targets('#minecraft:stone_ore_replaceables')
         .dimensions('twilightforest:twilight_forest')
 })
 
-/** 
+
 GTCEuStartupEvents.registry('gtceu:dimension_marker', event => {
     event.create('twilightforest:twilight_forest')  // the resource location for the dim
         .icon('twilightforest:twilight_portal_miniature_structure')  // the shown item in orevein widget

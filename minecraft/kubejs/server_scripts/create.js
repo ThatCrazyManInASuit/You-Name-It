@@ -450,6 +450,9 @@ ServerEvents.recipes(e => {
             L: 'gtceu:lead_ring'
         }
     ).keepIngredient('#forge:tools')
+    
+    e.remove({output: 'create:brass_casing'})
+    e.shapeless('create:brass_casing', ['#forge:tools/wire_cutters', 'gtceu:brass_plate', 'gtceu:treated_wood_planks'])
 
     let gregPlates = Ingredient.of('#forge:plates').getItemIds().toArray()
     let hammerable = [
