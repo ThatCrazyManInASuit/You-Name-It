@@ -1,4 +1,3 @@
-
 ServerEvents.recipes(e => {
     e.remove({output: 'paraglider:paraglider'})
     e.recipes.shaped('paraglider:paraglider', [

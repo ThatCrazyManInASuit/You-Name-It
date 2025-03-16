@@ -22,7 +22,7 @@ to make editing this file much easier.
 	*/
 	"swapper": {
 		
-	   		"create:zinc_ore": "minecraft:stone",
+	   		"create:zinc_ore": "gtceu:sphalerite_ore",
 	   		/*"railcraft:sulfur_ore": "minecraft:stone",
 			"railcraft:tin_ore": "minecraft:stone",
 			"railcraft:lead_ore": "minecraft:stone",
@@ -37,6 +37,24 @@ to make editing this file much easier.
 			"railcraft:deepslate_nickel_ore": "minecraft:deepslate",
 			"create_new_age:magnetite_block": "minecraft:stone",
 			"create_new_age:thorium_ore": "minecraft:stone",*/
-			"create:deepslate_zinc_ore": "minecraft:deepslate"
+			"create:deepslate_zinc_ore": "gtceu:deepslate_sphalerite_ore",
+			"thermal:apatite_ore": "gtceu:apatite_ore",
+			"thermal:deepslate_apatite_ore": "gtceu:deepslate_apatite_ore",
+			"thermal:niter_ore": "gtceu:saltpeter_ore",
+			"thermal:deepslate_niter_ore": "gtceu:deepslate_saltpeter_ore",
+			"thermal:sulfur_ore": "gtceu:sulfur_ore",
+			"thermal:deepslate_sulfur_ore": "gtceu:deepslate_sulfur_ore",
+			"thermal:tin_ore": "gtceu:tin_ore",
+			"thermal:deepslate_tin_ore": "gtceu:deepslate_tin_ore",
+			"thermal:lead_ore": "gtceu:lead_ore",
+			"thermal:deepslate_lead_ore": "gtceu:deepslate_lead_ore",
+			"thermal:silver_ore": "gtceu:silver_ore",
+			"thermal:deepslate_silver_ore": "gtceu:deepslate_silver_ore",
+			"thermal:nickel_ore": "gtceu:nickel_ore",
+			"thermal:deepslate_nickel_ore": "gtceu:deepslate_nickel_ore",
+			"thermal:ruby_ore": "gtceu:ruby_ore",
+			"thermal:deepslate_ruby_ore": "gtceu:deepslate_ruby_ore",
+			"thermal:sapphire_ore": "gtceu:sapphire_ore",
+			"thermal:deepslate_sapphire_ore": "gtceu:deepslate_sapphire_ore"
 	   	}
 }

@@ -10,71 +10,92 @@
 		{
 			dependencies: ["1486E77612197F93"]
 			id: "250931999EFF84FC"
-			tasks: [{
-				count: 8L
-				id: "59DC2A22AD637F35"
-				item: { Count: 8, id: "twilightforest:naga_scale" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 8L
+					id: "59DC2A22AD637F35"
+					item: { Count: 8, id: "twilightforest:naga_scale" }
+					type: "item"
+				}
+				{
+					id: "24C1771B884F3883"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["250931999EFF84FC"]
 			id: "6B218CE4A1C51245"
-			tasks: [{
-				id: "42A1B24918D31572"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "twilightforest:twilight_scepter"
-								tag: {
-									Damage: 0
+			tasks: [
+				{
+					id: "42A1B24918D31572"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "twilightforest:twilight_scepter"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "twilightforest:lifedrain_scepter"
-								tag: {
-									Damage: 0
+								{
+									Count: 1b
+									id: "twilightforest:lifedrain_scepter"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "twilightforest:zombie_scepter"
-								tag: {
-									Damage: 0
+								{
+									Count: 1b
+									id: "twilightforest:zombie_scepter"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "twilightforest:fortification_scepter"
-								tag: {
-									Damage: 0
+								{
+									Count: 1b
+									id: "twilightforest:fortification_scepter"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-						]
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "66E734772676CB77"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			]
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6B218CE4A1C51245"]
 			id: "7C2220F89B1684A1"
-			tasks: [{
-				id: "1F8FA0754A8C5FDD"
-				item: "twilightforest:meef_stroganoff"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
+			tasks: [
+				{
+					id: "1F8FA0754A8C5FDD"
+					item: "twilightforest:meef_stroganoff"
+					type: "item"
+				}
+				{
+					id: "6B377B5AC69E62E7"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7C2220F89B1684A1"]
@@ -91,81 +112,114 @@
 					item: "twilightforest:fiery_blood"
 					type: "item"
 				}
+				{
+					id: "52F0C9FB09B7BB5F"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
 			]
-			x: 0.0d
-			y: 4.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["10B9804BAC8A3CF5"]
+			dependencies: ["6B218CE4A1C51245"]
 			id: "25249D7E01E83878"
-			tasks: [{
-				id: "2A2788E6878EC31C"
-				item: {
-					Count: 1
-					id: "twilightforest:phantom_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "2A2788E6878EC31C"
+					item: {
+						Count: 1
+						id: "twilightforest:phantom_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
+				{
+					id: "6B4BD08063322086"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["25249D7E01E83878"]
 			id: "7FA7163801FFE0C5"
-			tasks: [{
-				id: "49A57D60E9B7663A"
-				item: "twilightforest:carminite"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
+			tasks: [
+				{
+					id: "49A57D60E9B7663A"
+					item: "twilightforest:carminite"
+					type: "item"
+				}
+				{
+					id: "5281EC09EEEECB95"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["7FA7163801FFE0C5"]
+			dependencies: ["6B218CE4A1C51245"]
 			id: "6F1341627E5190BF"
-			tasks: [{
-				count: 4L
-				id: "50C2E0605A0B0748"
-				item: "twilightforest:alpha_yeti_fur"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "50C2E0605A0B0748"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+				{
+					id: "244A65CEE3D58592"
+					item: "twilightforest:alpha_yeti_trophy"
+					type: "item"
+				}
+			]
 			x: 0.0d
-			y: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6F1341627E5190BF"]
 			id: "2AC4133DD958BDF3"
-			tasks: [{
-				id: "33A4BDF8CDC72AF6"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "twilightforest:triple_bow"
-								tag: {
-									Damage: 0
+			tasks: [
+				{
+					id: "33A4BDF8CDC72AF6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "twilightforest:triple_bow"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "twilightforest:seeker_bow"
-								tag: {
-									Damage: 0
+								{
+									Count: 1b
+									id: "twilightforest:seeker_bow"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-						]
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2A33E89A73A3CE94"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+			]
 			x: 0.0d
-			y: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B218CE4A1C51245"]
@@ -195,19 +249,23 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2AC4133DD958BDF3"]
+			dependencies: [
+				"2AC4133DD958BDF3"
+				"7FA7163801FFE0C5"
+				"10B9804BAC8A3CF5"
+			]
 			id: "0C71A009963D856E"
 			tasks: [{
 				id: "226E266CA4288394"
 				item: "twilightforest:magic_beans"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 14.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0C71A009963D856E"]
@@ -223,8 +281,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 16.0d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7FE4D31B3D0FD318"]
@@ -240,8 +298,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 16.0d
+			x: -0.5d
+			y: 9.0d
 		}
 		{
 			id: "1486E77612197F93"
@@ -285,6 +343,104 @@
 			}]
 			x: 2.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["6F1341627E5190BF"]
+			id: "37B6314949907E0C"
+			tasks: [{
+				id: "5E91AF615F710A1B"
+				item: {
+					Count: 1
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10B9804BAC8A3CF5"]
+			id: "5C5C05B23175F6FE"
+			tasks: [
+				{
+					id: "4C427CF90E74449A"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CB536AADD8AC709"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "twilightforest:fiery_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "twilightforest:fiery_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "twilightforest:fiery_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "twilightforest:fiery_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["255748D57DF1431A"]
+			id: "420A2A3E77CE07F2"
+			tasks: [{
+				id: "7016A3DFF5A21114"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["420A2A3E77CE07F2"]
+			id: "22B672BDCE5098E2"
+			tasks: [{
+				id: "6D8EAE0B42710441"
+				item: "twilightforest:ore_map"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
 		}
 	]
 	title: "4. Twilight's Edge"

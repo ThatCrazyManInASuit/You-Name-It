@@ -121,7 +121,10 @@
 			y: 1.6500000000000001d
 		}
 		{
-			dependencies: ["365A3B5AD2AA3C3D"]
+			dependencies: [
+				"365A3B5AD2AA3C3D"
+				"2D0ABFDB6A47F286"
+			]
 			id: "59EC327F79E6C9C6"
 			tasks: [{
 				id: "445772620A77AE01"
@@ -221,8 +224,8 @@
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4E5565C96DC147A7"]
@@ -353,6 +356,50 @@
 			]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["40A6324532B7581F"]
+			id: "052F48324ADFF98C"
+			tasks: [{
+				id: "62A523853F88DD64"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["40A6324532B7581F"]
+			id: "6FDF197AF4ABC53A"
+			tasks: [{
+				id: "6AD4C2645ECD1B96"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["40A6324532B7581F"]
+			id: "725E8B3E94586F32"
+			tasks: [{
+				id: "45C4C80A728C58B6"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6E577414FA83A34D"]
+			id: "0B0D046E39C7FC3D"
+			tasks: [{
+				id: "63D86F041862B728"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
 		}
 	]
 	title: "2. Create your Dreams"

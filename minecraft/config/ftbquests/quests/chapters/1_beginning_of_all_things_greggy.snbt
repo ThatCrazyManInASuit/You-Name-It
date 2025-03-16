@@ -8,17 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["516D6802747C92C2"]
-			id: "3D6CEBBA3D6FD916"
-			tasks: [{
-				id: "3F08CEF732F7CAA7"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["0256524A50C611C1"]
 			icon: {
 				Count: 1
@@ -259,15 +248,16 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3D6CEBBA3D6FD916"]
+			dependencies: ["516D6802747C92C2"]
 			id: "4F71965F3F7CBA1E"
 			tasks: [{
 				id: "21931C97D3C01D50"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			title: "Blah B;lah"
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -290,8 +280,8 @@
 				type: "item"
 			}]
 			title: "A Case Against Greg"
-			x: -4.0d
-			y: -1.5d
+			x: -3.125d
+			y: -1.25d
 		}
 		{
 			dependencies: [
@@ -400,9 +390,24 @@
 		}
 		{
 			dependencies: ["48BE8E07E6FD88C8"]
+			description: [
+				"Make a &eCoke Oven&f, your first &6mulit-block&f!"
+				""
+				"This elegant thing can turn your &elogs&f into &echarcoal&f and your &ecoal&f into &ecoke&f with a side of sweet, sweet, &ecreosote oil&f."
+				""
+				"If you want to automate any of the processes though, you'll have to make the &eCoke Oven Hatch&f, and if you're crazy enough to throw away that brown gold, liquid voiding will be available down the line."
+				""
+				"Along with liquid voiding, in the future, you'll be able to combine &ecokes&f together to form &dFlawless&f or even &dExquisite&f &ecoke&f, which can smelt more per item."
+			]
 			id: "22A57899F564B245"
+			rewards: [{
+				id: "6C7C1E2ECD28A8BB"
+				item: "gtceu:flawless_coal_gem"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "It couldn't be..."
 			tasks: [
 				{
 					id: "2D0ABFDB6A47F286"
@@ -416,12 +421,28 @@
 					type: "item"
 				}
 			]
+			title: "A WHAT Oven?!"
 			x: 6.0d
 			y: 3.75d
 		}
 		{
+			description: [
+				"Like a sapling, all journeys start somewhere..."
+				""
+				"Welcome to &eYou Name It&f, an expierence that you laugh and cry, raising civilizations and toppling empires. "
+				""
+				"But for now, rend the &2forest&f clear with your &cfury&f and your &4might&f..."
+			]
 			id: "516D6802747C92C2"
+			rewards: [{
+				count: 4
+				id: "482B0C426F48E7C8"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "They float now!?"
 			tasks: [{
+				count: 4L
 				id: "20F2CEDDD132C891"
 				item: {
 					Count: 1
@@ -433,17 +454,25 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
+			title: "Floating Trees"
 			x: 3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["516D6802747C92C2"]
+			description: [
+				"Rubber Trees are everywhere! (and by everywhere, I mean &aForest&r, &2Jungle&r or &aSwamp&r biomes.)"
+				""
+				"Breaking Rubber Logs will yield &6Sticky Resin&r, and later, the logs themselves can offer more resources."
+			]
 			id: "56F9C77FB4BAFC5B"
+			subtitle: "Rubba' Rubba' Dub Dub"
 			tasks: [{
 				id: "47895A55696D34DD"
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
+			title: "Rubber Revolution"
 			x: 4.5d
 			y: 4.0d
 		}
@@ -833,7 +862,7 @@
 			]
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
-			size: 0.9d
+			size: 0.5d
 			subtitle: "Source of Salt, Chlorine, Lithium, Fluorine"
 			tasks: [
 				{
@@ -858,8 +887,8 @@
 				}
 			]
 			title: "Gamer Rage"
-			x: -1.1499999999999995d
-			y: 0.5499999999999998d
+			x: 1.0d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -1355,8 +1384,8 @@
 				id: "6AD0AE003D9C2AAB"
 				type: "dimension"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5691A8D5DB47ADB4"]

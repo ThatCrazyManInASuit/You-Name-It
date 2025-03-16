@@ -454,6 +454,21 @@ ServerEvents.recipes(e => {
     e.remove({output: 'create:brass_casing'})
     e.shapeless('create:brass_casing', ['#forge:tools/wire_cutters', 'gtceu:brass_plate', 'gtceu:treated_wood_planks'])
 
+    e.remove({output: 'create:cinder_flour'})
+    e.replaceInput({input: 'create:cinder_flour'}, 'create:cinder_flour', 'gtceu:netherrack_dust')
+
+    e.remove({output: 'create:transmitter'})
+    e.shaped('create:transmitter', [
+        ' R ',
+        'COC',
+        ' P '
+    ], {
+        R: 'redstone_torch',
+        C: 'gtceu:copper_rod',
+        O: 'create:rose_quartz',
+        P: 'create:precision_mechanism'
+    })
+    
     let gregPlates = Ingredient.of('#forge:plates').getItemIds().toArray()
     let hammerable = [
         
