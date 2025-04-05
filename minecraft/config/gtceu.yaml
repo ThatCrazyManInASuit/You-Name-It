@@ -96,12 +96,12 @@ worldgen:
 
   # Should all Stone Types drop unique Ore Item Blocks?
   # Default: false (meaning only Stone, Netherrack, and Endstone)
-  allUniqueStoneTypes: false
+  allUniqueStoneTypes: true
 
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
   # Default: false (no falling ores)
-  sandOresFall: false
+  sandOresFall: true
 
   # Whether to increase number of rolls for dungeon chests. Increases dungeon loot drastically.
   # Default: true
@@ -123,11 +123,11 @@ worldgen:
 
     # Prevents regular vanilla ores from being generated outside GregTech ore veins
     # Default: true
-    removeVanillaOreGen: true
+    removeVanillaOreGen: false
 
     # Prevents vanilla's large ore veins from being generated
     # Default: true
-    removeVanillaLargeOreVeins: true
+    removeVanillaLargeOreVeins: false
 
     # Distance between bedrock ore veins in chunks, if enabled.
     # Default: 16
@@ -165,7 +165,7 @@ machines:
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
-  shouldWeatherOrTerrainExplosion: false
+  shouldWeatherOrTerrainExplosion: true
 
   # Energy use multiplier for electric items.
   # Default: 100
@@ -203,7 +203,7 @@ machines:
 
   # Block to replace mined ores with in the miner and multiblock miner.
   # Default: minecraft:cobblestone
-  replaceMinedBlocksWith: minecraft:cobblestone
+  replaceMinedBlocksWith: minecraft:air
 
   # Whether to enable Assembly Line research for recipes.
   # Default: true

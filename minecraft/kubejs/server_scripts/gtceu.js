@@ -2,6 +2,7 @@
 
 ServerEvents.recipes(e => {
     e.shapeless('gtceu:wood_plate', ['#forge:tools/saws', '2x #planks']).keepIngredient('#forge:tools/saws')
+    e.shapeless('gtceu:treated_wood_plate', ['#forge:tools/saws', '2x gtceu:treated_wood_planks']).keepIngredient('#forge:tools/saws')
     // e.remove({type: 'gtceu:compressor', output: 'gtceu:plant_ball'})
     e.recipes.gtceu.compressor("compressor_plant_ball")
             .itemInputs("8x #kubejs:compost")
@@ -91,7 +92,7 @@ ServerEvents.recipes(e => {
         recipe.outputs.item.forEach(b => {
             simple.outputs.push(Item.of(b.content.ingredient.item).withChance(b.chance / 10000))
         })
-        e.recipes.create.crushing(simple.outputs, simple.input).processingTime(recipe.duration)
+        e.recipes.create.crushing(simple.outputs, simple.input).processingTime(recipe.duration*2)
         }
     })
     e.remove({output: '#forge:dusts', input: '#forge:tools/mortars', not: [{output: 'gtceu:coal_dust'}, {output: 'gtceu:coke_dust'}]})
@@ -168,11 +169,115 @@ ServerEvents.recipes(e => {
 
     e.recipes.create.deploying('gtceu:firebrick', ['twilightforest:lamp_of_cinders', 'gtceu:firebrick_dust']).keepIngredient('twilightforest:lamp_of_cinders')
     e.shapeless('gtceu:firebrick', ['twilightforest:lamp_of_cinders', '#forge:tools/mortars', 'bricks']).keepIngredient('twilightforest:lamp_of_cinders').keepIngredient('#forge:tools/mortars')
-    e.replaceInput({output: 'gtceu:lp_steam_solid_boiler'}, 'bricks', 'gtceu:firebrick')
     e.remove({output: 'gtceu:lp_steam_liquid_boiler'})
-    e.shapeless('gtceu:lp_steam_liquid_boiler', ['gtceu:lp_steam_solid_boiler', 'create:fluid_tank'])
+    e.shapeless('gtceu:lp_steam_liquid_boiler', ['gtceu:lp_steam_solid_boiler', 'gtceu:glass_plate'])
+    e.remove({output: 'gtceu:lp_steam_solid_boiler'})
+    e.shaped('gtceu:lp_steam_solid_boiler',[
+        'SPS',
+        'ADC',
+        'FGF'
+    ],{
+        S: 'gtceu:bronze_screw',
+        P: 'gtceu:bronze_plate',
+        A: '#forge:tools/saws',
+        D: 'gtceu:bronze_drum',
+        C: 'create:mechanical_pump',
+        F: 'gtceu:firebrick',
+        G: 'furnace'
+    }).keepIngredient('#forge:tools')
+    e.remove({output: 'gtceu:lp_steam_solar_boiler'})
+    e.shaped('gtceu:lp_steam_solar_boiler',[
+        'SS ',
+        'GGP',
+        'FBF'
+    ],{
+        S: 'gtceu:silver_foil',
+        G: 'gtceu:glass_plate',
+        F: 'gtceu:firebrick',
+        B: 'gtceu:bronze_drum',
+        P: 'create:mechanical_pump'
+    })
+    e.remove({output: 'gtceu:lp_steam_forge_hammer'})
+    e.shaped('gtceu:lp_steam_forge_hammer',[
+        'C A',
+        'RMW',
+        'FFF'
+    ],{
+        C: '#forge:tools/screwdrivers',
+        A: '#forge:tools/saws',
+        R: 'create:mechanical_press',
+        W: 'create:water_wheel',
+        F: 'gtceu:firebrick',
+        M: 'gtceu:bronze_machine_casing'
+    }).keepIngredient('#forge:tools')
     e.remove({output: 'croptopia:salt'})
     e.replaceInput({input: 'croptopia:salt'}, 'croptopia:salt', 'gtceu:salt_dust')
+    e.remove({output: 'gtceu:lp_steam_macerator'})
+    e.shaped('gtceu:lp_steam_macerator',[
+        'C A',
+        'RWR',
+        'FMF'
+    ],{
+        C: '#forge:tools/screwdrivers',
+        A: '#forge:tools/saws',
+        R: 'create:crushing_wheel',
+        W: 'create:water_wheel',
+        F: 'gtceu:firebrick',
+        M: 'gtceu:bronze_machine_casing'
+    }).keepIngredient('#forge:tools')
+    e.remove({output: 'gtceu:lp_steam_compressor'})
+    e.shaped('gtceu:lp_steam_compressor',[
+        'CWA',
+        'PMR',
+        'FBF'
+    ],{
+        C: '#forge:tools/screwdrivers',
+        A: '#forge:tools/saws',
+        R: 'create:mechanical_press',
+        W: 'create:water_wheel',
+        F: 'gtceu:firebrick',
+        M: 'gtceu:bronze_machine_casing',
+        P: 'create:precision_mechanism',
+        F: 'create:basin'
+    }).keepIngredient('#forge:tools')
+    e.remove({output: 'gtceu:lp_steam_alloy_smelter'})
+    e.shaped('gtceu:lp_steam_alloy_smelter',[
+        'CWA',
+        'PMR',
+        'FBF'
+    ],{
+        C: '#forge:tools/screwdrivers',
+        A: '#forge:tools/saws',
+        R: 'create:spout',
+        W: 'create:water_wheel',
+        F: 'gtceu:firebrick',
+        M: 'gtceu:bronze_machine_casing',
+        P: 'create:mixer',
+        B: 'create:basin'
+    }).keepIngredient('#forge:tools')
+    e.remove({output: 'gtceu:lp_steam_furnace'})
+    e.shaped('gtceu:lp_steam_furnace',[
+        'C A',
+        'FUF'
+    ],{
+        C: '#forge:tools/screwdrivers',
+        A: '#forge:tools/saws',
+        U: 'furnace',
+        F: 'gtceu:firebrick',
+    }).keepIngredient('#forge:tools')
+    e.remove({output: 'gtceu:lp_steam_extractor'})
+    e.shaped('gtceu:lp_steam_extractor',[
+        'CWA',
+        'NMN',
+        'F F'
+    ],{
+        C: '#forge:tools/screwdrivers',
+        A: '#forge:tools/saws',
+        W: 'create:water_wheel',
+        F: 'gtceu:firebrick',
+        M: 'gtceu:bronze_machine_casing',
+        N: 'create:encased_fan'
+    }).keepIngredient('#forge:tools')
 })
 
 /** 

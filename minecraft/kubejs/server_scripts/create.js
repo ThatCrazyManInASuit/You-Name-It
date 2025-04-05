@@ -198,18 +198,34 @@ ServerEvents.recipes(e => {
             B: 'gtceu:brass_plate'
         }
     ).keepIngredient('#forge:tools')
+    e.remove({output: 'immersiveengineering:waterwheel_segment'})
+    e.shaped(
+        "immersiveengineering:waterwheel_segment",
+            [
+            'WPW',
+            'PWP',
+            'SNX'
+        ], {
+            P: 'gtceu:treated_wood_plate',
+            W: 'gtceu:wrought_iron_screw',
+            S: '#forge:tools/screwdrivers',
+            X: '#forge:tools/saws',
+            N: 'farmersdelight:tree_bark'
+        }
+    ).keepIngredient('#forge:tools')
     e.remove({output: 'create:water_wheel'})
     e.shaped(
         "create:water_wheel",
             [
             'PWP',
-            'WAW',
-            'SNP'
+            'XAS',
+            'PNP'
         ], {
-            P: 'gtceu:wood_plate',
+            P: 'immersiveengineering:waterwheel_segment',
             W: 'gtceu:wrought_iron_screw',
             A: 'create:andesite_casing',
             S: '#forge:tools/screwdrivers',
+            X: '#forge:tools/saws',
             N: 'create:shaft'
         }
     ).keepIngredient('#forge:tools')
@@ -221,7 +237,7 @@ ServerEvents.recipes(e => {
             'WAW',
             'SWP'
         ], {
-            P: 'gtceu:wood_plate',
+            P: 'gtceu:treated_wood_plate',
             W: 'gtceu:wrought_iron_screw',
             A: 'create:water_wheel',
             S: '#forge:tools/screwdrivers',
@@ -469,6 +485,18 @@ ServerEvents.recipes(e => {
         P: 'create:precision_mechanism'
     })
     
+    e.remove({output: 'create:track'})
+    let inter = 'create:incomplete_track'
+    e.recipes.create.sequenced_assembly([
+		Item.of('create:track').withChance(100.0) // this is the item that will appear in JEI as the result
+	], 'create:andesite_alloy', [ 
+		e.recipes.create.cutting(inter, 'create:andesite_alloy'),
+		e.recipes.create.deploying(inter, [inter, 'gtceu:iron_rod']),
+        e.recipes.create.deploying(inter, [inter, 'gtceu:steel_screw']),
+        e.recipes.create.deploying(inter, [inter, 'gtceu:iron_rod']),
+        e.recipes.create.deploying(inter, [inter, 'gtceu:steel_screw'])
+	]).transitionalItem(inter).loops(1)
+
     let gregPlates = Ingredient.of('#forge:plates').getItemIds().toArray()
     let hammerable = [
         
@@ -477,6 +505,6 @@ ServerEvents.recipes(e => {
     gregPlates.filter((item) => /gtceu/.test(item))
     e.remove({type: 'create:pressing', output: '#forge:plates'})
     gregPlates.forEach(x => {
-        e.recipes.create.pressing(Item.of(`${x}`).withChance(0.666), x.replace("_plate", '_ingot'))
+        e.recipes.create.pressing(Item.of(`${x}`).withChance(7/12), x.replace("_plate", '_ingot'))
     });
 })

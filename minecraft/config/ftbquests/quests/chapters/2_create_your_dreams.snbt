@@ -401,6 +401,24 @@
 			x: -2.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["365A3B5AD2AA3C3D"]
+			id: "56A9B0244747A63E"
+			tasks: [
+				{
+					id: "1F48F6253E1522E9"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "2FA3D18FCF32376C"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
 	]
 	title: "2. Create your Dreams"
 }

@@ -55,6 +55,21 @@ to make editing this file much easier.
 			"thermal:ruby_ore": "gtceu:ruby_ore",
 			"thermal:deepslate_ruby_ore": "gtceu:deepslate_ruby_ore",
 			"thermal:sapphire_ore": "gtceu:sapphire_ore",
-			"thermal:deepslate_sapphire_ore": "gtceu:deepslate_sapphire_ore"
+			"thermal:deepslate_sapphire_ore": "gtceu:deepslate_sapphire_ore",
+			"create_new_age:magnetite_block": "gtceu:deepslate_magnetite_ore",
+			"immersiveengineering:deepslate_ore_uranium": "gtceu:deepslate_uraninite_ore",
+			"immersiveengineering:ore_uranium": "gtceu:deepslate_uraninite_ore",
+			"minecraft:diamond_ore": "gtceu:diamond_ore",
+			"minecraft:deepslate_diamond_ore": "gtceu:deepslate_diamond_ore",
+			"minecraft:iron_ore": "gtceu:iron_ore",
+			"minecraft:deepslate_iron_ore": "gtceu:deepslate_iron_ore",
+			"minecraft:copper_ore": "gtceu:copper_ore",
+			"minecraft:deepslate_copper_ore": "gtceu:deepslate_copper_ore",
+			"minecraft:gold_ore": "gtceu:gold_ore",
+			"minecraft:deepslate_gold_ore": "gtceu:deepslate_gold_ore",
+			"minecraft:redstone_ore": "gtceu:redstone_ore",
+			"minecraft:deepslate_redstone_ore": "gtceu:deepslate_redstone_ore",
+			"minecraft:lapis_ore": "gtceu:lapis_ore",
+			"minecraft:deepslate_lapis_ore": "gtceu:deepslate_lapis_ore"
 	   	}
 }
